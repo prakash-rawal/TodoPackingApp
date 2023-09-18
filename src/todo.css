@@ -1,0 +1,158 @@
+body {
+  margin: 0px;
+}
+
+.strike {
+  text-decoration: line-through;
+  color: blanchedalmond;
+}
+
+.header {
+  background-color: rgb(242, 195, 108);
+  width: 100%;
+  /* padding: 30px; */
+  text-align: center;
+  font-size: 75px;
+}
+
+.form {
+  display: flex;
+  background-color: orange;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+}
+
+.form h1 {
+  margin-right: 30px;
+  font-size: 25px;
+  font-family: cursive;
+}
+
+.select {
+  padding: 15px;
+  width: 100px;
+  border-radius: 30px;
+  border: none;
+  text-align: center;
+  background-color: blanchedalmond;
+  font-weight: 600;
+}
+
+.select-btn {
+  padding: 15px;
+  width: 100px;
+  border-radius: 30px;
+  border: none;
+  text-align: center;
+  background-color: #1dc2c2;
+  font-weight: 700;
+  color: brown;
+
+}
+
+.input {
+  padding: 15px;
+  width: 150px;
+  border-radius: 30px;
+  border: none;
+  font-size: 17px;
+  font-weight: 600;
+  margin: 20px;
+  background-color: blanchedalmond;
+}
+
+.btn {
+
+  position: absolute;
+  bottom: 130px;
+  left: 50%;
+  border: 10px;
+  /* align-items: center; */
+  margin-left: -104.5px;
+}
+
+
+.clear-btn {
+  padding: 9px;
+  width: 131px;
+  border-radius: 30px;
+  border: none;
+  margin: 20px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: blanchedalmond;
+}
+
+.todolist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.todo {
+  background-color: #91137c;
+  width: 100%;
+  height: 378px;
+}
+
+.cross {
+  background-color: #91137c;
+  border: none;
+  font-size: 34px;
+  position: absolute;
+  margin-left: 20px;
+}
+
+.checkbox-text {
+  color: blanchedalmond;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 150px;
+  gap: 50px;
+  font-size: 27px;
+  flex-flow: row wrap;
+
+}
+
+.footer {
+  background-color: rgb(50, 164, 164);
+  width: 100%;
+  height: 130px;
+}
+
+.footer-text {
+  text-align: center;
+  padding: 40px;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+input[type='checkbox']:checked {
+  background-color: orange;
+}
+
+input[type='checkbox']:checked:after {
+  content: '✓';
+  color: white;
+}
+
+input[type='checkbox'] {
+  text-align: center;
+  vertical-align: middle;
+  width: 20px !important;
+  height: 20px !important;
+  appearance: none;
+  margin-right: 20px;
+  border-radius: 10%;
+  background-color: white;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: none;
+
+}
+
+.far-away {
+  font-family: 'Monoton', cursive;
+  ;
+}
